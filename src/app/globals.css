@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+@layer utilities {
+    .text-gradient-gold {
+        @apply bg-gradient-to-br from-yellow-100 to-yellow-200 bg-clip-text text-transparent;
+    }
+}
+
+@font-face {
+    font-family: AaGuDianKeBenSong;
+    src: url("/fonts/AaGuDianKeBenSong.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: DingLieSong;
+    src: url("/fonts/dingliesongtypeface.ttf") format("truetype");
+}
